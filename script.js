@@ -27,7 +27,7 @@ function renderizarCategoria(nombre) {
     contenedor.innerHTML = `
       <div class="empty-card">
         <strong>Próximamente</strong>
-        Edita el archivo <b>products.js</b> para agregar tus productos en esta categoría.
+        <p>Estamos trabajando para agregar más productos en esta categoría. ¡Mantente atento!</p>
       </div>`;
     return;
   }
