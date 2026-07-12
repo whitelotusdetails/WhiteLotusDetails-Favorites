@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Selección de equipos, herramientas y materiales recomendados por White Lotus Details." />
+  <title>White Lotus Details | Mis favoritos de Amazon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container">
+      <a class="brand" href="#inicio" aria-label="White Lotus Details, inicio">
+        <img src="logo.png" alt="Logo de White Lotus Details" />
+        <span>White Lotus Details</span>
+      </a>
+      <button class="menu-btn" type="button" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#equipos">Equipos</a>
+        <a href="#herramientas">Herramientas</a>
+        <a href="#materiales">Materiales</a>
+      </div>
+    </nav>
+
+    <section id="inicio" class="hero-content container">
+      <div class="hero-copy">
+        <p class="eyebrow">Selección exclusiva</p>
+        <h1>Mis favoritos para crear detalles inolvidables</h1>
+        <p>Equipos, herramientas y materiales que recomiendo para sublimación, papelería creativa y productos personalizados.</p>
+        <a class="primary-btn" href="#equipos">Ver recomendaciones</a>
+      </div>
+      <div class="hero-logo-wrap">
+        <img src="logo.png" alt="White Lotus Details" class="hero-logo" />
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="intro container">
+      <p class="section-label">White Lotus Details recomienda</p>
+      <h2>Todo lo que necesitas, en un solo lugar</h2>
+      <p>Explora cada categoría y abre el producto directamente en Amazon.</p>
+    </section>
+
+    <section id="equipos" class="category-section container">
+      <div class="section-heading">
+        <div><span>01</span><h2>Equipos</h2></div>
+        <p>Máquinas e impresoras para elevar la calidad de tus creaciones.</p>
+      </div>
+      <div id="lista-equipos" class="product-grid"></div>
+    </section>
+
+    <section id="herramientas" class="category-section alternate">
+      <div class="container">
+        <div class="section-heading">
+          <div><span>02</span><h2>Herramientas</h2></div>
+          <p>Próximamente podrás agregar aquí tus herramientas favoritas.</p>
+        </div>
+        <div id="lista-herramientas" class="product-grid"></div>
+      </div>
+    </section>
+
+    <section id="materiales" class="category-section container">
+      <div class="section-heading">
+        <div><span>03</span><h2>Materiales</h2></div>
+        <p>Próximamente podrás agregar aquí los materiales que más utilizas.</p>
+      </div>
+      <div id="lista-materiales" class="product-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <img src="logo.png" alt="White Lotus Details" />
+      <div>
+        <h3>White Lotus Details</h3>
+        <p>Creaciones con elegancia, intención y amor por cada detalle.</p>
+      </div>
+    </div>
+    <div class="affiliate-note container">
+      <p><strong>Aviso:</strong> Como participante del Programa de Afiliados de Amazon, puedo recibir una comisión por compras calificadas realizadas mediante estos enlaces, sin costo adicional para ti.</p>
+      <p>© <span id="year"></span> White Lotus Details. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
